@@ -9,40 +9,41 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Vector.png" type="image/x-icon">
     <script src="script.js"></script>
+    <script src="db.json"></script>
 
 
 </head>
 
-<body>
+<body onload="carregarCases()">
 
     <div id="menu">
         <div id="menu-bar" onclick="menuOnClick()">
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
         </div>
         <nav class="nav" id="nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </nav> 
-      </div>
-      
-      <div class="menu-bg" id="menu-bg"></div>
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Cases</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="menu-bg" id="menu-bg"></div>
 
     <div class="banner">
         <header class="container-grid">
             <nav class="menu">
-               
+
             </nav>
         </header>
 
 
         <div class="inicio container-grid">
-            
+
             <img src="Component 4.png" alt="logo">
             <button>Conheça a nossa empresa!</button>
         </div>
@@ -52,23 +53,23 @@
 
     <section class="sobre">
         <p> Ao escolher a nossa empresa de gamificação,
-             você estará investindo em soluções
+            você estará investindo em soluções
             inovadoras que podem impactar positivamente
-             o desempenho, a motivação e o engajamento das pessoas.
+            o desempenho, a motivação e o engajamento das pessoas.
             Imagine o potencial de melhorar a produtividade
-             da sua equipe, tornar o aprendizado mais eficaz para
+            da sua equipe, tornar o aprendizado mais eficaz para
             os alunos ou incentivar hábitos saudáveis de forma mais divertida.
             A gamificação tem se mostrado uma ferramenta poderosa
             para engajar e motivar as pessoas em diversas áreas.
             Ao utilizar uma empresa especializada em gamificação,
             você pode transformar processos e tarefas do dia a dia
-             em experiências mais envolventes e divertidas.
+            em experiências mais envolventes e divertidas.
             Seja na educação, no ambiente de trabalho ou em iniciativas de saúde,
-             a gamificação pode tornar o aprendizado,
+            a gamificação pode tornar o aprendizado,
             o treinamento e até mesmo a mudança de hábitos mais eficazes e prazerosos.
 
         </p>
-        
+
         <div>
             <img src="Captura de tela 2024-04-23 104649.png" alt="Tigas">
             <button>Quero uma demonstração</button>
@@ -84,31 +85,10 @@
         <div class="container-cards">
 
             <div class="card">
-                <img src="https://unsplash.it/600/400" alt="">
-                <p>Reduzimos o desperdício de comida de uma escola em 80%.</p>
+
                 <button>Ver mais</button>
-            </div>
-            <div class="card">
-                <img src="https://unsplash.it/600/400" alt="">
-                <p>"Adorei participar de um jogo de realidade aumentada promovido pela empresa em um evento.
-                     A experiência foi tão envolvente que passei a seguir a empresa nas redes sociais e me tornei uma cliente fiel."
-                    </p>
-                <button>Ver mais</button>
-            </div>
-            <div class="card">
-                <img src="https://unsplash.it/600/400" alt="">
-                <p>"Participei de um programa de fidelidade gamificado da empresa, onde acumulava pontos
-                     e ganhava recompensas.
-                     Essa experiência me incentivou a continuar comprando e interagindo com a empresa."
-                </p>
-                <button>Ver mais</button>
-            </div>
-            <div class="card">
-                <img src="https://unsplash.it/600/400" alt="">
-                <p>"Tive uma experiência incrível ao usar um aplicativo de treinamento desenvolvido pela empresa.
-                     A dinâmica dos desafios e a competição saudável entre colegas tornaram o aprendizado mais eficaz e divertido."
-                </p>
-                <button>Ver mais</button>
+
+
             </div>
 
         </div>
@@ -130,8 +110,10 @@
             <div class="campo-descricao">
                 <label for="">Descreva um pouco da sua empresa, e também o problema que está procurando
                     selecionar.</label>
-                <textarea id="campo-texto" placeholder="Descreva a sua empresa e o problema que a sua empresa enfrenta..." cols="30" rows="10"></textarea>
-                    
+                <textarea id="campo-texto"
+                    placeholder="Descreva a sua empresa e o problema que a sua empresa enfrenta..." cols="30"
+                    rows="10"></textarea>
+
             </div>
             <button type="submit">Enviar</button>
         </form>
@@ -142,7 +124,12 @@
         <h2>123456789</h2>
         <h2>gamific_over</h2>
         <button>manual da marca</button>
+
     </section>
+
+
+
+
 
 
 </body>
