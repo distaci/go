@@ -307,9 +307,6 @@ a {
 }
 
 
-.sobre p,
-.sobre img {}
-
 footer {
     height: 290px;
 
@@ -877,7 +874,7 @@ footer {
     }
 
     .inicio button {
-        padding 30px
+        padding: 30px;
     }
 
     .conteudo-banner p {
@@ -990,4 +987,33 @@ footer {
     footer img {
         width: 200px;
     }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
